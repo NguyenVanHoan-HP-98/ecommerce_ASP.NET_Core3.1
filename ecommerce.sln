@@ -3,7 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopApp", "ShopApp\ShopApp.csproj", "{D2EE666B-283B-4447-B97D-361BCDF42211}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopApp", "ShopApp\ShopApp.csproj", "{D2EE666B-283B-4447-B97D-361BCDF42211}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D233F655-1E8C-43F5-B234-9EBE96E2BDAC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ecommere.Data", "ecommere.Data\ecommere.Data.csproj", "{B9CF3966-39AA-4D15-B6FC-2AC772C38864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommere.Application", "ecommere.Application\ecommere.Application.csproj", "{1FC50F08-E48C-498E-9FAD-135E4BAC7E30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ecommere.WebApp", "..\ecommere.WebApp\ecommere.WebApp.csproj", "{4D1BE73C-BFB3-49A0-899B-D9D8258A9358}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +26,18 @@ Global
 		{D2EE666B-283B-4447-B97D-361BCDF42211}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2EE666B-283B-4447-B97D-361BCDF42211}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2EE666B-283B-4447-B97D-361BCDF42211}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9CF3966-39AA-4D15-B6FC-2AC772C38864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9CF3966-39AA-4D15-B6FC-2AC772C38864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9CF3966-39AA-4D15-B6FC-2AC772C38864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9CF3966-39AA-4D15-B6FC-2AC772C38864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FC50F08-E48C-498E-9FAD-135E4BAC7E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FC50F08-E48C-498E-9FAD-135E4BAC7E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FC50F08-E48C-498E-9FAD-135E4BAC7E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FC50F08-E48C-498E-9FAD-135E4BAC7E30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1BE73C-BFB3-49A0-899B-D9D8258A9358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1BE73C-BFB3-49A0-899B-D9D8258A9358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1BE73C-BFB3-49A0-899B-D9D8258A9358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1BE73C-BFB3-49A0-899B-D9D8258A9358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
